@@ -1,1 +1,2 @@
-# Task Manager using GetX State Management
+# Task Manager app using GetX 
+
