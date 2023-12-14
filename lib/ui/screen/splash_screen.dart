@@ -4,7 +4,6 @@ import 'package:task_manager/data/utils/assets_utils.dart';
 import 'package:task_manager/data/utils/auth_utility.dart';
 import 'package:task_manager/ui/screen/bottom_nav_base.dart';
 import 'package:task_manager/ui/screen/login_screen.dart';
-import 'package:task_manager/data/utils/colors.dart';
 import 'package:task_manager/ui/widgets/screen_background.dart';
 
 class SplashScreen extends StatefulWidget {

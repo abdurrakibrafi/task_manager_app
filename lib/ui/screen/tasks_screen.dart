@@ -9,8 +9,6 @@ import 'package:task_manager/ui/state_managers/button_controller.dart';
 import 'package:task_manager/ui/state_managers/task_summary_controller.dart';
 import 'package:task_manager/ui/widgets/custom_button.dart';
 import 'package:task_manager/ui/widgets/custom_chip.dart';
-import 'package:task_manager/ui/widgets/screen_background.dart';
-
 import '../../data/utils/task_status.dart';
 import '../../data/utils/urls.dart';
 import '../state_managers/task_controller.dart';

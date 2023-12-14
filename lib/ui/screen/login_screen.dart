@@ -8,7 +8,6 @@ import 'package:task_manager/ui/screen/singup_screen.dart';
 import 'package:task_manager/ui/state_managers/button_controller.dart';
 import 'package:task_manager/ui/state_managers/login_controller.dart';
 import 'package:task_manager/ui/widgets/custom_button.dart';
-import 'package:task_manager/ui/widgets/custom_loading.dart';
 import 'package:task_manager/ui/widgets/screen_background.dart';
 import 'package:get/get.dart';
 

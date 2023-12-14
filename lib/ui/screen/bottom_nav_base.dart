@@ -1,10 +1,11 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:line_icons/line_icon.dart';
 import 'package:task_manager/data/utils/auth_utility.dart';
 import 'package:task_manager/data/utils/base64_image.dart';
 import 'package:task_manager/data/utils/tasks_screen_info.dart';
-import 'package:task_manager/data/utils/theme_utility.dart';
 import 'package:task_manager/ui/screen/profile_screen.dart';
 import 'package:task_manager/ui/screen/splash_screen.dart';
 import 'package:task_manager/ui/screen/tasks_screen.dart';
@@ -17,7 +18,6 @@ import 'package:task_manager/ui/widgets/custom_button.dart';
 
 import '../../data/utils/task_status.dart';
 import '../../data/utils/urls.dart';
-import '../widgets/custom_loading.dart';
 
 class BottomNavBase extends StatefulWidget {
   const BottomNavBase({super.key});
@@ -50,7 +50,7 @@ class _BottomNavBaseState extends State<BottomNavBase> {
             onPressed: () => signOutShowDialog(context),
             icon: Icon(
               Icons.logout,
-              color: Colors.red,
+              color: Colors.white,
             ),
           )
         ],
